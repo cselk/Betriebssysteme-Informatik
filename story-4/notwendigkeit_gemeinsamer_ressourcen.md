@@ -16,6 +16,7 @@ Die Nutzung gemeinsamer Ressourcen ist notwendig, um, Datenaustausch und die **e
 
 **Effizienz und Redundanz**: Das Nutzen gemeinsamer Ressourcen verhindert redundante Informationen und ist effizienter, da Prozesse gleichzeitig laufen können
 
-=> weniger Zeit wird benötigt
-=> weniger Speicherplatz ist nötig, da Ressourcen geteilt werden und nicht jeder Prozess seine eigenen ablegt
-=> Informationen werden nicht redundant gespeichert
+**Zusammenfassung**: <br>
+-> weniger Zeit wird benötigt <br>
+-> weniger Speicherplatz ist nötig, da Ressourcen geteilt werden und nicht jeder Prozess seine eigenen ablegt <br>
+-> Informationen werden nicht redundant gespeichert
