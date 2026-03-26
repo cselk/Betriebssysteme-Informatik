@@ -17,4 +17,4 @@ Die States werden mithilfe des 5-State-Modells dargestellt
 2. Ready: Der Prozess ist bereit und wartet nur darauf, dass die CPU frei wird
 3. Running: Die CPU führt den Prozess aus	
 4. Blocked/Waiting: Prozess kann nicht ausgeführt werden, wartet auf ein Event (z.B. I/O oder data input)
-5. Exit/Terminate: Der Prozess wurde beendet bzw. abgebrochen? und das System entfernt ihn aus dem Memory
+5. Exit/Terminate: Der Prozess wurde beendet bzw. abgebrochen (oder gekillt: sofortiges aufhören ohne speichern) und das System entfernt ihn aus dem Memory
