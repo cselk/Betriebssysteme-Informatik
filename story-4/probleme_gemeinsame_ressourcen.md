@@ -1,4 +1,4 @@
-# Gemeinsame Ressourcen – thematisch geordnet zur Story
+# Probleme bei der Nutzung gemeinsamer Ressourcen
 
 ## 1. Ausgangslage und Notwendigkeit gemeinsamer Ressourcen
 
@@ -53,7 +53,7 @@ Dieses Problem tritt auf, wenn zwei Prozesse (Threads) einen gemeinsamen Zwische
 ### Leser-Schreiber-Probleme
 
 Dieses Problem tritt auf wenn mehrere Prozesse gleichzeitig auf eine Ressource zugreifen wollen. Die Methoden im Code, die zum Zugriff auf diese gemeinsamen Ressourcen benötigt werden, bilden den sogennanten **kritischen Abschnitt**.
-Der kritsiche Abschnitt darf nur von einem Prozess gleichzeitig ausgeführt werden, um Dateninkonsistenzen zu verhindern.
+Der kritische Abschnitt darf nur von einem Prozess gleichzeitig ausgeführt werden, um Dateninkonsistenzen zu verhindern.
 
 **Das Leser-Schreiber-Problem:**
 
