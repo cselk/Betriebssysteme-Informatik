@@ -8,3 +8,4 @@ Die CPU hat 2 Arbeitsmodi. Den **Kernelmode** und den **Usermode**. Im Kernelmod
 ### Driver und Schnittstellen
 Möchte nun ein Programm das im Usermode arbeitet, auf eine Hardware Komponente zugreifen. So muss es einen sog. **Systemcall** (Syscall) machen. Wenn ein Programm einen Syscall aufruft, wird das Programm gehalten und der Kernel führt die Funktion aus. Wenn der Kernel den Call durchgeführt hat, wird das Programm wieder durchgeführt.
 
+Quelle: Schulbuch Q12 S. 242/243
