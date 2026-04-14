@@ -1,9 +1,9 @@
 # Übersicht - Gemeinsame Ressourcen
 
-Die gemeinsame Nutzung von Ressourcen (Resource Sharing) ist eine der Kernaufgaben eines modernen Betriebssystems. Die Nutzung gemeinsamer Ressourcen ist notwendig, um, Datenaustausch und die effiziente Nutzung begrenzter Mittel zu ermöglichen.
+Die **gemeinsame Nutzung von Ressourcen (Resource Sharing)** ist eine der Kernaufgaben eines modernen Betriebssystems. Die Nutzung gemeinsamer Ressourcen ist notwendig, um, **Datenaustausch** und die **effiziente Nutzung** begrenzter Mittel zu ermöglichen.
 Prozesse sollten gleichzeitig laufen um Zeit zu sparen. Damit alle Prozesse zu jeder Zeit auf dem gleichen Stand sind müssen sie gemeinsame Ressourcen nutzen.
 
-Die Nutzung gemeinsamer Ressourcen verhindert dabei redundante Informationen und ermöglicht effizientere Synchronisierung von Prozessen.
+Die Nutzung gemeinsamer Ressourcen verhindert dabei redundante Informationen und ermöglicht **effizientere Synchronisierung** von Prozessen.
 
 **Quellen**:
 
