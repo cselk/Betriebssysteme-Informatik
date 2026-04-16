@@ -72,7 +72,7 @@ Damit ein Deadlock entstehen kann, müssen die **vier Coffman-Bedingungen** erf�
 1. **Wechselseitiger Ausschluss (Mutual Exclusion)**: Mindestens eine Ressource wird nicht-teilbar genutzt. Nur ein Prozess kann die Ressource exklusiv verwenden.
 2. **Halten und Warten (Hold & Wait)**: Prozesse, die bereits Ressourcen benutzen, fordern weitere Ressourcen an, die von anderen Prozessen genutzt werden.
 3. **Ununterbrechbarkeit**: Ressourcen können einem Thread nicht entzogen werden. Sie werden nur frei, wenn der Thread sie abgibt.
-4. **Zyklisches Warten**: Es entscheht eine geschlossene Kette von Prozessen ($P_0, P_1, ..., P_n$), die jeweils auf eine Ressource des nächsten Threads warten: $P_0$ wartet auf $P_1$, dieser auf $P_2$ und $P_n$ schließlich auf $P_0$.
+4. **Zyklisches Warten**: Es entsteht eine geschlossene Kette von Prozessen ($P_0, P_1, ..., P_n$), die jeweils auf eine Ressource des nächsten Threads warten: $P_0$ wartet auf $P_1$, dieser auf $P_2$ und $P_n$ schließlich auf $P_0$.
 
 **Vermeiden von Deadlocks**: Um Deadlocks zu verhindern, muss mindestens eine der Coffman-Bedingungen gezielt außer Kraft gesetzt werden.
 
