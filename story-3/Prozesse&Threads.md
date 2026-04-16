@@ -21,7 +21,7 @@ Die States werden mithilfe des 5-State-Modells dargestellt
 
 
 
-
+--------
 
 ## Threads
 #### *Was sind Threads?*
@@ -59,4 +59,4 @@ Werden direkt vom kernel (und kernel level thread libraries) gemanaged. Dadurch 
 **-** Context switching ist langsamer im Vergleich zu ULTs. 
 
 
-
+---------
