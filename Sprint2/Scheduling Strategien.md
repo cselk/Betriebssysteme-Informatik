@@ -6,3 +6,6 @@ In der Round Robin Scheduling Strategie rotiert das System (OS) durch jeden anst
 #### Beispiel 1: Prozesse mit gleichzeitigem Ankommen
 | Process | Burst Time | Arrival Time |
 |---------|------------|--------------|
+| P1 | 4 ms | 0 ms |
+| P2 | 5 ms | 0 ms |
+| P3 | 3 ms | 0 ms |
