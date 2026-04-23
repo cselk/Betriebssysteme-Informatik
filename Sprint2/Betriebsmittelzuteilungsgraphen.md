@@ -4,8 +4,8 @@ sind Graphen, die visualisieren, welche Threads welche Ressourcen belegen bzw. a
 
 ## Bestandteile
 
-![](https://www.google.com/imgres?q=geek%20for%20geeks%20deadlocks&imgurl=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fwp-content%2Fuploads%2F20241003170604%2FScreenshot-2024-10-03-170601.png&imgrefurl=https%3A%2F%2Fwww.geeksforgeeks.org%2Foperating-systems%2Fintroduction-of-deadlock-in-operating-system%2F&docid=-M0x9HJrEDuqaM&tbnid=EuhRzXhYyADyfM&vet=12ahUKEwi6oL2z24OUAxU5wQIHHV0wODIQnPAOegQIGxAB..i&w=322&h=327&hcb=2&ved=2ahUKEwi6oL2z24OUAxU5wQIHHV0wODIQnPAOegQIGxAB)
+![fail](Bilder/B-Beispiel.png)
 
 | Thread | Ressource | Belegung | Anforderung |
 | ------ | --------- | -------- | ----------- |
-| 
+| ![](Bilder/B-Thread.png) <br> Runde Ecken/Kreis| ![](Bilder/B-Ressource.png) <br> Rechteck| ![](Bilder/B-Belegung.png) | ![](Bilder/B-Anforderung.png) <br> Auch als gestrichelter Pfeil möglich|
