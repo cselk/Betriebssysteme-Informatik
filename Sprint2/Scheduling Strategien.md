@@ -68,3 +68,19 @@ In der Round Robin Scheduling Strategie rotiert das System (OS) durch jeden anst
 #### Nachteile:
 - Großer Overhead wenn der Quantum (Quantum Time) zu klein ist
 - Fühlt sich langsam an wenn der Quantum zu groß ist
+  
+
+### **Shortest-Job-First (SJF)**
+Wie der Name schon sagt wird der kürzester Prozess, also der Prozess mit der wenigsten BT, ausgeführt.  
+
+Dabei ist das erste Problem schon, dass das System nicht die BT's der einzelnen Prozesse weiß, weswegen es nur in spezifischen Situationen verwendet werden kann wo die BT bekannt ist.  
+
+Um zu vermeiden, dass immer mehr kürzere Prozess kommen und die längeren ignoriert werden, muss man ageing implementieren. 
+
+#### Vorteile:
+- Besser als FCFS, weil es die durchschnittliche Wartezeit verkürzt
+- Gut in Situationen wo die BT's bekannt sind
+
+#### Nachteile:
+- Kann zu starving führen (siehe ageing)
+- BT zu berechnen ist schwer
