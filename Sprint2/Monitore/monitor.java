@@ -1,4 +1,4 @@
-public class Konto {
+class Konto {
 
     private int kontostand = 100;
 
